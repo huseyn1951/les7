@@ -138,7 +138,106 @@ namespace ConsoleApp5
 
 
             string cavab2 = Console.ReadLine();*/
-            
+
+
+
+
+
+            ///////////////////////////////
+            /*
+                        string PIN = "1312";
+
+                        Console.WriteLine("PIN KODU DAXIL EDIN: ");
+
+                        string input = Console.ReadLine();
+
+                        if (input==PIN)
+                        {
+                            Console.WriteLine("pin kod duzdu");
+
+                        }
+
+                        else
+                        {
+                            Console.WriteLine("sehvdi vizqirt");
+                        }*/
+
+            //////////////////////////////////////
+
+
+            ////test with switch case
+
+            Console.WriteLine("qurban qurbanov kimdir?");
+            Console.WriteLine("A)meshqci");
+            Console.WriteLine("B)bokscu");
+            Console.WriteLine("C)mugenni");
+
+            string cavab = Console.ReadLine();
+
+            switch (cavab)
+            {
+                case "a":
+                    
+                    Console.WriteLine("DUZDU");
+
+                    break;
+
+
+                case "b":
+                case "c":
+                    Console.WriteLine("yalnisdir");
+                    break;
+
+                default :
+                    Console.WriteLine("variant burda yoxdu");
+                    break;
+
+            }
+
+            Console.ReadLine();
+
+
+            Console.WriteLine("qarabag qrupdan cixacag?");
+            Console.WriteLine("A)yox");
+            Console.WriteLine("B)he");
+            Console.WriteLine("C)bilmirem");
+
+            string cavab1 = Console.ReadLine();
+
+            switch (cavab1)
+            {
+                case "b":
+
+                    Console.WriteLine("DUZDU");
+
+                    break;
+
+
+                case "a":
+                case "c":
+                    Console.WriteLine("yalnisdir");
+                    break;
+
+                default:
+                    Console.WriteLine("variant burda yoxdu");
+                    break;
+
+            }
+
+            Console.ReadLine();
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
